@@ -3,7 +3,9 @@
     "version": "0.1.0",
     "description": "babby's first socket.io",
     "dependencies": {
-        "express": "^4.15.2",
+        "express": "^4.17.1",
+        "fresh": ">=0.5.2",
+        "mime": ">=1.4.1",
         "socket.io": "^2.2.0"
     }
 }
