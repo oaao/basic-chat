@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "babby's first socket.io",
     "dependencies": {
-        "express": "^4.15.2"
+        "express": "^4.15.2",
+        "socket.io": "^2.2.0"
     }
 }
