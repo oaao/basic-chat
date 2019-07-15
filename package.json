@@ -1,7 +1,18 @@
 {
     "name": "basic-chat",
+    "description": "basic chat. babby's first socket.io",
+
     "version": "0.1.0",
-    "description": "babby's first socket.io",
+    "repository": "github:oaao/basic-chat",
+    "bugs": "https://github.com/oaao/basic-chat/issues",
+
+    "license": "MIT",
+    "author": {
+        "name": "Oliver Antoniu",
+        "url":  "http://oaao.work"
+    },
+
+
     "dependencies": {
         "express": "^4.17.1",
         "fresh": ">=0.5.2",
