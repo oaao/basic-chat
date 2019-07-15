@@ -15,6 +15,7 @@ io.on('connection', function(socket) {
     });
 
     socket.on('chatmsg', function(msg) {
+        io.emit('chatmsg', msg)
         console.log('MESSAGE @ ' + Date.now() + ': ' + msg);
     });
 
